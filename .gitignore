@@ -70,3 +70,13 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+#가상환경
+.venv
+#OpenAi API Key
+.env
+#공공데이터 API Key
+ApiKey.json
+ApiKey.json.meta
+#모델
+best_model.xgb
