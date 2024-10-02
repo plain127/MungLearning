@@ -1,6 +1,5 @@
 # MungLearning
-![MungLearning_시연영상](https://github.com/user-attachments/assets/1a07117b-acb7-40d2-95e7-38638b039c28){: width="80%" height="80%"}
-
+<p align="center"><img src="https://github.com/user-attachments/assets/1a07117b-acb7-40d2-95e7-38638b039c28" width="50%" height="60%"></p>
 
 ## 프로젝트 소개
 - 이 프로젝트는 유기동물의 입양 가능성을 분류해 높은 순서대로 선정하는 머신러닝 모델 프로젝트 
@@ -31,11 +30,11 @@
 ## 학습결과
 <img width="280" alt="결과" src="https://github.com/user-attachments/assets/60521d6f-67d0-4c1a-b105-0dfa81afcc68">
 
-### 정확도 : 85.52%
-### 정밀도 : 86.84%
-### 재현율 : 82.96%
-### F1 : 84.86%
-### AUC : 91.81%
+- 정확도 : 85.52%
+- 정밀도 : 86.84%
+- 재현율 : 82.96%
+- F1 : 84.86%
+- AUC : 91.81%
 
 ## 실행파일
 ### [다운로드](https://drive.google.com/file/d/1zbmOsAMcYw6MjoSw-Kl3qzVRaxExrm5R/view?usp=sharing)
