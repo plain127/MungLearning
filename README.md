@@ -1,10 +1,11 @@
 # MungLearning
-![MungLearning_시연영상](https://github.com/user-attachments/assets/1a07117b-acb7-40d2-95e7-38638b039c28)
+![MungLearning_시연영상](https://github.com/user-attachments/assets/1a07117b-acb7-40d2-95e7-38638b039c28){: width="80%" height="80%"}
 
 
 ## 프로젝트 소개
 - 이 프로젝트는 유기동물의 입양 가능성을 분류해 높은 순서대로 선정하는 머신러닝 모델 프로젝트 
 - 유기견의 다양한 특징을 반영하여 모델에 적용 후 사용자가 이용하기 쉽도록 GUI를 제공
+- 천안시 데이터분석 아이디어 경진대회 본선 진출작
 
 ## 목적
 - 유기견 입양률을 높여 전체적인 안락사와 폐사 비율을 줄이고자 유기견과의 직접적인 교감을 통해 유기동물 입양 캠페인을 위한 입양 후보 선정 시스템 제공
