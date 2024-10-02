@@ -20,11 +20,12 @@
 ## 데이터 셋
 - 출처 : [국가동물보호정보시스템](https://www.animal.go.kr/front/awtis/public/publicAllList.do?menuNo=1000000064) 
 - 기간 : 2014.01.01 ~ 2024.08.20
+- 지역 : 충청남도 천안시
 - 2,580건
 
 ## 모델 
 ### gpt-4o
-### XGBoost Classifer
+### XGBoost Classifier
 ### [Checkpoint](https://drive.google.com/file/d/1i9Bn7NZmIdqoyfQhrex2E8OrEbZUsWEg/view?usp=drive_link)
 
 ## 학습결과
