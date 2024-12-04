@@ -4,7 +4,6 @@ import os
 import pickle
 import sys
 
-import category_encoders as ce
 import pandas as pd
 import torch
 import xgboost as xgb
@@ -23,18 +22,17 @@ class DogInference():
         self.device = 'cuda' if torch.cuda.is_available() else 'cpu'
         
         self.character_labels = ['사람을 경계함', '사람을 잘 따름', '중립']
-        self.color_labels = ['갈색계열', '검정색계열', '혼합색계열', '황색계열', '회색계열', '흰색계열']
-        self.sex_labels = ['M', 'F']
-        self.neutering_labels = ['U', 'N', 'Y']
+        self.color_labels = ['밝은계열', '어두운계열', '혼합색계열']
+        self.sex_labels = ['수컷', '암컷']
+        self.neutering_labels = ['아니오', '예', '미상']
+        self.health_labels = ['건강', '질병']
+        self.breed_labels = ['믹스견', '품종견']
+        self.target_labels = ['미입양', '입양']
         
         
         # Load scalers and encoders
-        with open(os.path.dirname(os.path.abspath(__file__))+'\\scaler\\standard_scaler_weight.pkl', 'rb') as f:
+        with open(os.path.dirname(os.path.abspath(__file__))+'\\scaler\\minmax_scaler_weight_age.pkl', 'rb') as f:
             self.weight_scaler = pickle.load(f)
-        with open(os.path.dirname(os.path.abspath(__file__))+'\\scaler\\target_encoder_health.pkl', 'rb') as f:
-            self.health_encoder = pickle.load(f)
-        with open(os.path.dirname(os.path.abspath(__file__))+'\\breed_freq.json', 'r', encoding='utf-8') as f:
-            self.breed_freq = json.load(f)
     
     @staticmethod
     def get_instance(model_path):
