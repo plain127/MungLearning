@@ -30,13 +30,13 @@
 ### [Checkpoint](https://drive.google.com/file/d/1i9Bn7NZmIdqoyfQhrex2E8OrEbZUsWEg/view?usp=drive_link)
 
 ## 학습결과
-<img width="280" alt="결과" src="https://github.com/user-attachments/assets/60521d6f-67d0-4c1a-b105-0dfa81afcc68">
+<img width="280" alt="결과" src="https://github.com/user-attachments/assets/6102b864-1524-417a-9ff8-88177e0bbc33">
 
-- 정확도 : 85.52%
-- 정밀도 : 86.84%
-- 재현율 : 82.96%
-- F1 : 84.86%
-- AUC : 91.81%
+- 정확도 : 72.78%
+- 정밀도 : 63.28%
+- 재현율 : 60.00%
+- F1 : 61.60%
+- AUC : 78.04%
 
 ## 실행파일
 ### [다운로드](https://drive.google.com/file/d/1zbmOsAMcYw6MjoSw-Kl3qzVRaxExrm5R/view?usp=sharing)
