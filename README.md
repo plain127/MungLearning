@@ -25,7 +25,6 @@
 
 ## 모델 
 ### gpt-4o
-### text-ada-embedding-ada-002
 ### XGBoost Classifier
 ### [Checkpoint](https://drive.google.com/file/d/1i9Bn7NZmIdqoyfQhrex2E8OrEbZUsWEg/view?usp=drive_link)
 
