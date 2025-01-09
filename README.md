@@ -22,6 +22,21 @@
 - 기간 : 2014.01.01 ~ 2024.08.20
 - 지역 : 충청남도 천안시
 - 2,580건
+<img width="280" alt="중성화가 결과에 미치는 그래프" src="https://github.com/user-attachments/assets/c7d42597-619f-4919-8bdf-d2f22d572eae">
+<img width="280" alt="무게가 결과에 미치는 그래프" src="https://github.com/user-attachments/assets/d79b6f15-34f4-4538-9c66-bd88f932fd1a">
+
+# EDA
+### LLM을 사용한 EDA
+- 피처 데이터 : 건강, 색, 성격
+
+# 전처리
+- Encoding
+    - 성격, 색, 성별, 성격, 중성화유무, 색, 상태(입양 여부) : Label Encoding
+    - 품종 : Frequency Encoding
+    - 건강 : Target Encoding
+    - 무게 : Standard Scaling
+- 오버샘플링
+    - SMOTE
 
 ## 모델 
 ### gpt-4o
