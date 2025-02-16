@@ -26,12 +26,14 @@
 <img width="280" alt="무게가 결과에 미치는 그래프" src="https://github.com/user-attachments/assets/d79b6f15-34f4-4538-9c66-bd88f932fd1a">
 
 # EDA
-### LLM을 사용한 EDA
-- 피처 데이터 : 건강, 색, 성격
-
+- 결측치제거
+- 이상치제거
+- 라벨데이터 설정
+  
 # 전처리
+- LLM을 사용 : 건강, 성격, 색
 - Encoding
-    - 성격, 색, 성별, 성격, 중성화유무, 색, 상태(입양 여부) : Label Encoding
+    - 성격, 색, 성별, 성격, 중성화유무, 상태(입양 여부) : Label Encoding
     - 품종 : Frequency Encoding
     - 건강 : Target Encoding
     - 무게 : Standard Scaling
